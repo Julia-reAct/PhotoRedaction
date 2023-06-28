@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Filter from './Elements/Filter/Filter'
+import React from 'react'
+import CroppedImage from './Elements/CropPhoto/CropPhoto'
+
+
 
 function App() {
-  return (
-    <div className="App">
+ return (
+   <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <Filter/>
+
       </header>
     </div>
   );
 }
 
 export default App;
+
