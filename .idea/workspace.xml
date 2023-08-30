@@ -2,22 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7e1eb07-a5f1-4d12-bddf-5d6910d80232" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Elements/CropPhoto/CropPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/CropPhoto/golden.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/Filter/Filter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/Filter/Filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/Filter/Options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/Filter/SideBarItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/Filter/Slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/Filter/drawcat.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/Filter/golden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/ChooseColorSizeBrush/BrushConfig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/ChooseColorSizeBrush/BrushConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/DownloadImage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/DownloadImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/UploadImage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/UploadImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/Drawing/Drawing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/Drawing/Drawing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/SideBarItem/SideBarItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/Slider/Slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/CropPhoto/CropPhoto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/CropPhoto/golden.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Filter/Filter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Filter/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Options.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Options/Options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/SideBarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SideBarItem/SideBarItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Slider/Slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/drawcat.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/golden.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +56,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../learnworld/my-app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -57,10 +70,11 @@
       <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\Filter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\Slider" />
+      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\SideBarItem" />
+      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\Options" />
       <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\CropPhoto" />
       <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src" />
-      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\Filter" />
-      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,7 +93,15 @@
       <workItem from="1685381343568" duration="13533000" />
       <workItem from="1686313217949" duration="5461000" />
       <workItem from="1686924554677" duration="4520000" />
-      <workItem from="1687519282813" duration="6626000" />
+      <workItem from="1687519282813" duration="20940000" />
+      <workItem from="1691754279084" duration="5780000" />
+      <workItem from="1691851726190" duration="2150000" />
+      <workItem from="1692014073709" duration="15730000" />
+      <workItem from="1692040435310" duration="1078000" />
+      <workItem from="1692105020547" duration="12436000" />
+      <workItem from="1692296831315" duration="13748000" />
+      <workItem from="1693238629616" duration="12338000" />
+      <workItem from="1693403501128" duration="4082000" />
     </task>
     <servers />
   </component>

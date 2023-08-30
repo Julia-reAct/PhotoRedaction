@@ -1,7 +1,6 @@
-import './App.css'
-import Filter from './Elements/Filter/Filter'
-import React from 'react'
-import CroppedImage from './Elements/CropPhoto/CropPhoto'
+import "./App.css"
+import Drawing from "./Elements/Drawing/Drawing"
+import React from "react"
 
 
 
@@ -9,8 +8,7 @@ function App() {
  return (
    <div className="App">
       <header className="App-header">
-          <Filter/>
-
+          <Drawing/>
       </header>
     </div>
   );
