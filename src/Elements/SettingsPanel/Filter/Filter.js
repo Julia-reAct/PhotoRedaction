@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react'
-import {defaultOptions} from "../Options/Options"
-import SidebarItem from "../SideBarItem/SideBarItem"
-import Slider from "../Slider/Slider"
+import {defaultOptionsFilter} from "../../Options/OptionsFilter"
+import SidebarItem from "./SideBarItem/SideBarItem"
+import Slider from "./Slider/Slider"
 
 function Filter({getFilterChange}){
     const [selectedOptionIndex, setSelectedOptionIndex] = useState(0)
-    const [options, setOptions] = useState(defaultOptions)
+    const [options, setOptions] = useState(defaultOptionsFilter)
     const selectedOption = options[selectedOptionIndex]
     let safeFilter
 
@@ -31,7 +31,7 @@ function Filter({getFilterChange}){
     }
 
     function resetFilter(){
-        setOptions(defaultOptions)
+        setOptions(defaultOptionsFilter)
     }
 
     return(
@@ -54,7 +54,7 @@ function Filter({getFilterChange}){
                 value={selectedOption.value}
                 handleChange={handleSliderChange}
             />
-            <button className="drawing__button_clear" onClick={resetFilter}>
+            <button className="filter__button_clear" onClick={resetFilter}>
                 reset all filters
             </button>
         </div>

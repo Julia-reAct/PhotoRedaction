@@ -2,31 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7e1eb07-a5f1-4d12-bddf-5d6910d80232" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Elements/ChooseColorSizeBrush/BrushConfig.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/ChooseColorSizeBrush/BrushConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/DownloadImage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/DownloadImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/UploadImage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/UploadImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/Drawing/Drawing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/Drawing/Drawing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/SideBarItem/SideBarItem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/Slider/Slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/Options/SaveDrawing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/Drawing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/SettingPanel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/SettingsPanel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/CropPhoto/CropPhoto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/CropPhoto/golden.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Filter/Filter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Filter/Filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Options.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Options/Options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/SideBarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SideBarItem/SideBarItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Slider/Slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/drawcat.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/golden.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/ChooseColorSizeBrush/BrushConfig.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Options/OptionsSizePhoto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/ChooseColorSizeBrush/BrushConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/DownloadImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/DownloadImage/DownloadImage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/DownloadImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/DownloadImage/DownloadImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/UploadImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/UploadImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Drawing/Drawing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/Drawing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Drawing/Drawing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Filter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Options/Options.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Options/OptionsFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SideBarItem/SideBarItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SideBarItem/SideBarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Slider/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -50,10 +52,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../learnworld/my-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,11 +73,11 @@
       <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\Filter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\Slider" />
-      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\SideBarItem" />
-      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\Options" />
-      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\CropPhoto" />
-      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src" />
+      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\SettingsPanel\Filter" />
+      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\SettingsPanel" />
+      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements" />
+      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\SettingsPanel\Drawing" />
+      <recent name="C:\Users\User\yulya\app_photo_redaction\my-app\src\Elements\Drawing" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -101,7 +104,19 @@
       <workItem from="1692105020547" duration="12436000" />
       <workItem from="1692296831315" duration="13748000" />
       <workItem from="1693238629616" duration="12338000" />
-      <workItem from="1693403501128" duration="4082000" />
+      <workItem from="1693403501128" duration="15559000" />
+      <workItem from="1693494752241" duration="3323000" />
+      <workItem from="1694003155200" duration="18848000" />
+      <workItem from="1694621426591" duration="2893000" />
+      <workItem from="1695116761907" duration="6723000" />
+      <workItem from="1695302055811" duration="6012000" />
+      <workItem from="1696421829864" duration="9255000" />
+      <workItem from="1697548072960" duration="3281000" />
+      <workItem from="1697634449037" duration="1832000" />
+      <workItem from="1698349390377" duration="12828000" />
+      <workItem from="1702654607882" duration="28000" />
+      <workItem from="1705330804911" duration="15133000" />
+      <workItem from="1705703648003" duration="1196000" />
     </task>
     <servers />
   </component>

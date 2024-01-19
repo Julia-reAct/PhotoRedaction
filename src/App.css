@@ -1,5 +1,9 @@
-.App {
+.App{
+  height: 100vh;
   text-align: center;
+}
+.App__header{
+  height: 100%;
 }
 
 

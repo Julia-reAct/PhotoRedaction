@@ -1,6 +1,6 @@
 import "./App.css"
-import Drawing from "./Elements/Drawing/Drawing"
 import React from "react"
+import SettingsPanel from './Elements/SettingsPanel/SettingsPanel'
 
 
 
@@ -8,7 +8,7 @@ function App() {
  return (
    <div className="App">
       <header className="App-header">
-          <Drawing/>
+          <SettingsPanel/>
       </header>
     </div>
   );

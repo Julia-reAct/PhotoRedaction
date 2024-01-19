@@ -14,8 +14,8 @@ export default function DownloadImage(canvas) {
             <a className="download_image__link"
                id="download_image_link"
                href="download_link"
-               download
-               onClick={saveImageToLocal}>
+               onClick={saveImageToLocal}
+               download>
                 Download
                 Image</a>
         </div>

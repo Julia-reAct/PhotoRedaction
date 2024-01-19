@@ -1,7 +1,7 @@
 import React from "react"
 import  {useForm}  from "react-hook-form";
 
-function BrushConfig({changeColorSize}) {
+function BrushConfig({contextRef,drawingPathRef,setSettingDraw,settingDraw}) {
     const { register, handleSubmit } = useForm()
     const onSubmit = (data) =>{
         let size = Number(data.size)
@@ -10,6 +10,15 @@ function BrushConfig({changeColorSize}) {
             changeColorSize(size,color)
         }
     }
+    function changeColorSize(size, color) {
+        if(settingDraw[settingDraw.length-1][0]!=size||settingDraw[settingDraw.length-1][1]!=color) {
+            setSettingDraw([...settingDraw, [size, color]])
+            drawingPathRef.current = new Path2D()
+            contextRef.current.strokeStyle = color
+            contextRef.current.lineWidth = size
+        }
+    }
+
     return (
         <form className="BrushConfig__form" onSubmit={handleSubmit(onSubmit)}>
             <select className="BrushConfig__select"  {...register("size")}>

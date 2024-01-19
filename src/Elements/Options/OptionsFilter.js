@@ -1,6 +1,6 @@
 import React from "react"
 
-const defaultOptions = [
+const defaultOptionsFilter = [
     {
         name: "Brightness",
         property: "brightness",
@@ -73,4 +73,4 @@ const defaultOptions = [
     }
 ]
 
-export {defaultOptions}
+export {defaultOptionsFilter}
