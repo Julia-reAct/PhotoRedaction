@@ -2,7 +2,6 @@
 .drawing__main_image {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 .drawing__canvas_container {

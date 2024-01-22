@@ -3,7 +3,7 @@
     appearance: none;
     width: 100%;
     height: 15px;
-    background: #d3d3d3;
+    background: white;
     outline: none;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -28,7 +28,6 @@
         width: 130px;
     }
 }
-
 @media (max-width: 768px) {
     .slider-container {
         position: absolute;
