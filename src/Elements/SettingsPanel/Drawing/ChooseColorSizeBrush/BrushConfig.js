@@ -28,12 +28,19 @@ function BrushConfig({contextRef,drawingPathRef,setSettingDraw,settingDraw}) {
                 <option className="BrushConfig__option" value="10">10px</option>
                 <option className="BrushConfig__option" value="15">15px</option>
                 <option className="BrushConfig__option" value="20">20px</option>
+                <option className="BrushConfig__option" value="25">25px</option>
+                <option className="BrushConfig__option" value="30">30px</option>
             </select>
             <select className="BrushConfig__select"  {...register("color")}>
                 <option className="BrushConfig__option" value="black">black</option>
                 <option className="BrushConfig__option" value="red">red</option>
                 <option className="BrushConfig__option" value="green">green</option>
                 <option className="BrushConfig__option" value="blue">blue</option>
+                <option className="BrushConfig__option" value="yellow">yellow</option>
+                <option className="BrushConfig__option" value="orange">orange</option>
+                <option className="BrushConfig__option" value="pink">pink</option>
+                <option className="BrushConfig__option" value="yellow">yellow</option>
+                <option className="BrushConfig__option" value="purple">purple</option>
                 <option className="BrushConfig__option" value="white">white</option>
             </select>
             <input className="BrushConfig__input"  type="submit" value="Save"/>

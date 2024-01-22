@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b7e1eb07-a5f1-4d12-bddf-5d6910d80232" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/DownloadImage/DownloadImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/DownloadImage/DownloadImage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/Drawing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/Drawing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Filter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/SettingPanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/SettingPanel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +96,7 @@
       <workItem from="1702654607882" duration="28000" />
       <workItem from="1705330804911" duration="15133000" />
       <workItem from="1705703648003" duration="1196000" />
-      <workItem from="1705930359347" duration="17788000" />
+      <workItem from="1705930359347" duration="19505000" />
     </task>
     <servers />
   </component>

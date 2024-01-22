@@ -7,6 +7,11 @@
     cursor: pointer;
     margin-bottom: 5px;
 }
+.sidebar-item_:hover {
+    border: 1px solid #4CAF50;
+    background-color: white;
+    color: #4CAF50;
+}
 .sidebar-item_active{
     border: 1px solid #ccc;
     border-radius: 5px;
