@@ -1,13 +1,3 @@
-.BrushConfig__form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 200px;
-    gap:5px;
-    margin-bottom: 10px;
-}
-
 .BrushConfig__select {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -30,4 +20,22 @@
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
+}
+@media (max-width: 1280px) {
+    .BrushConfig__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 200px;
+        gap:5px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .BrushConfig__form {
+        display: flex;
+        flex-direction: row;
+    }
 }

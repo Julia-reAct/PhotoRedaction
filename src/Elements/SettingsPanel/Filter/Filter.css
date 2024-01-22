@@ -1,16 +1,3 @@
-.filter {
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-.filter__sidebar {
-    display: flex;
-    flex-direction: column;
-}
 .filter__button_clear {
     border: none;
     border-radius: 5px;
@@ -19,4 +6,37 @@
     background-color: #f44336;
     color: white;
     cursor: pointer;
+}
+@media (max-width: 1280px) {
+    .filter {
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .filter__sidebar {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .filter {
+        display: flex;
+        width: 100%;
+        gap: 5px;
+        align-items: center;
+    }
+    .filter__sidebar {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    .filter__button_clear {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+    }
 }
