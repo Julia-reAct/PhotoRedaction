@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import {defaultOptionsFilter} from "../../Options/OptionsFilter"
 import SidebarItem from "./SideBarItem/SideBarItem"
 import Slider from "./Slider/Slider"
+import './Filter.css'
 
 function Filter({getFilterChange}){
     const [selectedOptionIndex, setSelectedOptionIndex] = useState(0)

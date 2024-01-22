@@ -1,4 +1,5 @@
 import React from "react"
+import './Slider.css'
 
 export default function Slider({ min, max, value, handleChange}) {
     return (

@@ -1,3 +1,22 @@
-.filter{}
-.filter__sidebar{}
-.filter__button_clear{}
+.filter {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.filter__sidebar {
+    display: flex;
+    flex-direction: column;
+}
+.filter__button_clear {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}

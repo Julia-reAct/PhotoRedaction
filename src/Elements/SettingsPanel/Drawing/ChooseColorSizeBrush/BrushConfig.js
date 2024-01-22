@@ -1,5 +1,6 @@
 import React from "react"
 import  {useForm}  from "react-hook-form";
+import './BrushConfig.css'
 
 function BrushConfig({contextRef,drawingPathRef,setSettingDraw,settingDraw}) {
     const { register, handleSubmit } = useForm()

@@ -1,4 +1,5 @@
 import React from "react"
+import './DownloadImage.css'
 
 export default function DownloadImage(canvas) {
 

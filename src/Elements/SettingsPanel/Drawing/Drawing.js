@@ -1,6 +1,7 @@
 import React, {useEffect,  useState} from 'react'
 import OptionsSizePhoto from '../../Options/OptionsSizePhoto'
 import SaveDrawing from '../../Options/SaveDrawing'
+import './Drawing.css'
 
 function Drawing ({canvasRef,contextRef,imageRef,drawingPathRef,file,setSizePhoto,pencilDrawingPass,setPencilDrawingPass,settingDraw}){
     const [isDrawing, setIsDrawing] = useState(false)

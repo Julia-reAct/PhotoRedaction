@@ -5,6 +5,7 @@ import Filter from './Filter/Filter'
 import BrushConfig from './Drawing/ChooseColorSizeBrush/BrushConfig'
 import Drawing from './Drawing/Drawing'
 import './Drawing/Drawing.css'
+import './SettingPanel.css'
 
 function SettingsPanel() {
     const canvasRef = useRef(null)
@@ -38,28 +39,32 @@ function SettingsPanel() {
             <UploadImage setFile={setFile}/>
             {file === null ? <div className="settings_panel__wait_image"></div> :
                 <div className="settings_panel__image_upload">
-                    <BrushConfig
-                        contextRef={contextRef}
-                        drawingPathRef={drawingPathRef}
-                        setSettingDraw={setSettingDraw}
-                        settingDraw={settingDraw}
-                    />
-                    <button className="settings_panel__button_clear" onClick={setToErase}>
-                        Clear draw
-                    </button>
-                    <Filter getFilterChange={getFilterChange}/>
+                    <div className="settings_panel__container_config">
+                        <Filter getFilterChange={getFilterChange}/>
+                        <Drawing
+                            canvasRef={canvasRef}
+                            contextRef={contextRef}
+                            imageRef={imageRef}
+                            drawingPathRef={drawingPathRef}
+                            file={file}
+                            setSizePhoto={setSizePhoto}
+                            pencilDrawingPass={pencilDrawingPass}
+                            setPencilDrawingPass={setPencilDrawingPass}
+                            settingDraw={settingDraw}
+                        />
+                        <div className='settings_panel__drawing'>
+                            <BrushConfig
+                                contextRef={contextRef}
+                                drawingPathRef={drawingPathRef}
+                                setSettingDraw={setSettingDraw}
+                                settingDraw={settingDraw}
+                            />
+                            <button className="settings_panel__button_clear" onClick={setToErase}>
+                                Clear draw
+                            </button>
+                        </div>
+                    </div>
                     <DownloadImage canvas={canvasRef}/>
-                    <Drawing
-                        canvasRef={canvasRef}
-                        contextRef={contextRef}
-                        imageRef={imageRef}
-                        drawingPathRef={drawingPathRef}
-                        file={file}
-                        setSizePhoto={setSizePhoto}
-                        pencilDrawingPass={pencilDrawingPass}
-                        setPencilDrawingPass={setPencilDrawingPass}
-                        settingDraw={settingDraw}
-                    />
                 </div>
             }
         </div>

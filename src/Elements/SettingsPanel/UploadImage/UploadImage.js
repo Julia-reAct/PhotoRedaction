@@ -1,23 +1,37 @@
-import React from "react"
+import React, { useRef, useState } from "react";
+import './UploadImage.css'
 
 export default function UploadImage({setFile}) {
+  const inputRef = useRef();
 
-    function handleChange(e) {
-        if(e.target.files.length!==0) {
-            setFile(URL.createObjectURL(e.target.files[0]));
-        }
+    const [selectedFile, setSelectedFile] = useState(null);
+
+  const handleOnChange = (event) => {
+    if (event.target.files && event.target.files.length > 0) {
+      setFile(URL.createObjectURL(event.target.files[0]));
+      setSelectedFile(event.target.files[0])
     }
+  };
 
-    return (
-        <div className="upload_image">
-            <h2 className="upload_image__header">
-                Add Image:
-            </h2>
-            <input className="upload_image__input"
-                   accept="image/png, image/jpeg"
-                   type="file"
-                   onChange={handleChange}
-            />
-        </div>
-    )
+  const onChooseFile = () => {
+    inputRef.current.click();
+  }
+  return (
+    <div className='upload_file'>
+        <input
+            type="file"
+            ref={inputRef}
+            onChange={handleOnChange}
+            style={{ display: "none" }}
+        />
+        <button className="file-btn" onClick={onChooseFile}>
+             Upload File
+        </button>
+        {selectedFile && (
+            <div className="selected-file">
+                <p>{selectedFile.name}</p>
+            </div>
+        )}
+    </div>
+  )
 }

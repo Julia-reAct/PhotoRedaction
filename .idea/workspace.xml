@@ -2,32 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7e1eb07-a5f1-4d12-bddf-5d6910d80232" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Elements/Options/SaveDrawing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/Drawing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/SettingPanel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/SettingsPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/ChooseColorSizeBrush/BrushConfig.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Options/OptionsSizePhoto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/ChooseColorSizeBrush/BrushConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/DownloadImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/DownloadImage/DownloadImage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/DownloadImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/DownloadImage/DownloadImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/UploadImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/DownloadAndUploadImage/UploadImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Drawing/Drawing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/Drawing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Drawing/Drawing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Filter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Options/Options.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Options/OptionsFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/SideBarItem/SideBarItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/SideBarItem/SideBarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Slider/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/DownloadImage/DownloadImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/DownloadImage/DownloadImage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/DownloadImage/DownloadImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/DownloadImage/DownloadImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/Drawing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/Drawing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/Drawing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/Drawing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Filter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/SettingPanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/SettingPanel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/SettingsPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/SettingsPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ProjectwithVlad/my-app/src/Pages/ChatPage/Chat.module.css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -117,6 +108,7 @@
       <workItem from="1702654607882" duration="28000" />
       <workItem from="1705330804911" duration="15133000" />
       <workItem from="1705703648003" duration="1196000" />
+      <workItem from="1705930359347" duration="13307000" />
     </task>
     <servers />
   </component>
