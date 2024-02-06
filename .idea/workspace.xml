@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b7e1eb07-a5f1-4d12-bddf-5d6910d80232" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Drawing/ChooseColorSizeBrush/BrushConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/SideBarItem/SideBarItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/Filter/Slider/Slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/SettingsPanel/UploadImage/UploadImage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Options/OptionsSizePhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Options/OptionsSizePhoto.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../learnworld/my-app/src/element/AddWord/AddWord.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -96,7 +95,9 @@
       <workItem from="1702654607882" duration="28000" />
       <workItem from="1705330804911" duration="15133000" />
       <workItem from="1705703648003" duration="1196000" />
-      <workItem from="1705930359347" duration="19505000" />
+      <workItem from="1705930359347" duration="20842000" />
+      <workItem from="1706725997900" duration="1624000" />
+      <workItem from="1707243882874" duration="1390000" />
     </task>
     <servers />
   </component>
